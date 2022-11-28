@@ -9,6 +9,8 @@ import { EmployeeDeleteComponent } from './employee-delete/employee-delete.compo
 import { EmployeeEditComponent } from './employee-edit/employee-edit.component';
 import { EmployeeviewComponent } from './employeeview/employeeview.component';
 import { EmployeesearchComponent } from './employeesearch/employeesearch.component';
+import { RouterModule, Routes } from '@angular/router';
+
 
 @NgModule({
   declarations: [
