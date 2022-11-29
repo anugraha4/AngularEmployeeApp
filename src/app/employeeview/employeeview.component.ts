@@ -6,5 +6,36 @@ import { Component } from '@angular/core';
   styleUrls: ['./employeeview.component.css']
 })
 export class EmployeeviewComponent {
+data=[
+  {
+    "name":"anu",
+    "designation":"Software",
+    "salary":266,
+    "phonenumber":65989900,
+    "mailID":"smaple@gmal.com"
+  
+  
+  },
+  
+    {
+      "name":"Manu",
+      "designation":"Software",
+      "salary":25666,
+      "phonenumber":6587900,
+      "mailID":"aple@gmal.com"
+    
+    
+    },
+    {
+      "name":"Tanu",
+      "designation":"Software",
+      "salary":25666,
+      "phonenumber":6587900,
+      "mailID":"sple@gmal.com"
+    
+    
+    }
+  
 
+]
 }
