@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./employeesearch.component.css']
 })
 export class EmployeesearchComponent {
+emcode=""
 
+search=()=>
+{
+  let sea:any={"search":this.search}
+  console.log(sea)
+}
 }
